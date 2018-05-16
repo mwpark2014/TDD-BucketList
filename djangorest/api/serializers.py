@@ -8,4 +8,3 @@ class BucketlistSerializer(serializers.ModelSerialize):
         """Meta class to map serializer's fields with the model fields"""
         model = Bucketlistfields = ('id', 'name', 'date_created', 'date_modified')
         read_only_fields = ('date_created', 'date_modified')
-        
